@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85DDF06C1EDFEE63003E4011 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDF06B1EDFEE63003E4011 /* main.m */; };
+		85DDF06F1EDFEE63003E4011 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDF06E1EDFEE63003E4011 /* AppDelegate.m */; };
+		85DDF0721EDFEE63003E4011 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDF0711EDFEE63003E4011 /* ViewController.m */; };
+		85DDF0751EDFEE63003E4011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DDF0731EDFEE63003E4011 /* Main.storyboard */; };
+		85DDF0771EDFEE63003E4011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DDF0761EDFEE63003E4011 /* Assets.xcassets */; };
+		85DDF07A1EDFEE63003E4011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DDF0781EDFEE63003E4011 /* LaunchScreen.storyboard */; };
+		85DDF0851EDFEE63003E4011 /* HETimeIntervalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDF0841EDFEE63003E4011 /* HETimeIntervalTests.m */; };
+		85DDF0901EDFEE63003E4011 /* HETimeIntervalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDF08F1EDFEE63003E4011 /* HETimeIntervalUITests.m */; };
+		85DDF0A01EDFEF09003E4011 /* UIButton+HETouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 85DDF09E1EDFEF09003E4011 /* UIButton+HETouch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85DDF0811EDFEE63003E4011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85DDF05F1EDFEE63003E4011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DDF0661EDFEE63003E4011;
+			remoteInfo = HETimeInterval;
+		};
+		85DDF08C1EDFEE63003E4011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85DDF05F1EDFEE63003E4011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85DDF0661EDFEE63003E4011;
+			remoteInfo = HETimeInterval;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85DDF0671EDFEE63003E4011 /* HETimeInterval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HETimeInterval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DDF06B1EDFEE63003E4011 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85DDF06D1EDFEE63003E4011 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85DDF06E1EDFEE63003E4011 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85DDF0701EDFEE63003E4011 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85DDF0711EDFEE63003E4011 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		85DDF0741EDFEE63003E4011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85DDF0761EDFEE63003E4011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85DDF0791EDFEE63003E4011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85DDF07B1EDFEE63003E4011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DDF0801EDFEE63003E4011 /* HETimeIntervalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HETimeIntervalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DDF0841EDFEE63003E4011 /* HETimeIntervalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HETimeIntervalTests.m; sourceTree = "<group>"; };
+		85DDF0861EDFEE63003E4011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DDF08B1EDFEE63003E4011 /* HETimeIntervalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HETimeIntervalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85DDF08F1EDFEE63003E4011 /* HETimeIntervalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HETimeIntervalUITests.m; sourceTree = "<group>"; };
+		85DDF0911EDFEE63003E4011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DDF09E1EDFEF09003E4011 /* UIButton+HETouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HETouch.m"; sourceTree = "<group>"; };
+		85DDF09F1EDFEF09003E4011 /* UIButton+HETouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HETouch.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85DDF0641EDFEE63003E4011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DDF07D1EDFEE63003E4011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DDF0881EDFEE63003E4011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85DDF05E1EDFEE63003E4011 = {
+			isa = PBXGroup;
+			children = (
+				85DDF0691EDFEE63003E4011 /* HETimeInterval */,
+				85DDF0831EDFEE63003E4011 /* HETimeIntervalTests */,
+				85DDF08E1EDFEE63003E4011 /* HETimeIntervalUITests */,
+				85DDF0681EDFEE63003E4011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85DDF0681EDFEE63003E4011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85DDF0671EDFEE63003E4011 /* HETimeInterval.app */,
+				85DDF0801EDFEE63003E4011 /* HETimeIntervalTests.xctest */,
+				85DDF08B1EDFEE63003E4011 /* HETimeIntervalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85DDF0691EDFEE63003E4011 /* HETimeInterval */ = {
+			isa = PBXGroup;
+			children = (
+				85DDF09D1EDFEEC3003E4011 /* Category */,
+				85DDF06D1EDFEE63003E4011 /* AppDelegate.h */,
+				85DDF06E1EDFEE63003E4011 /* AppDelegate.m */,
+				85DDF0701EDFEE63003E4011 /* ViewController.h */,
+				85DDF0711EDFEE63003E4011 /* ViewController.m */,
+				85DDF0731EDFEE63003E4011 /* Main.storyboard */,
+				85DDF0761EDFEE63003E4011 /* Assets.xcassets */,
+				85DDF0781EDFEE63003E4011 /* LaunchScreen.storyboard */,
+				85DDF07B1EDFEE63003E4011 /* Info.plist */,
+				85DDF06A1EDFEE63003E4011 /* Supporting Files */,
+			);
+			path = HETimeInterval;
+			sourceTree = "<group>";
+		};
+		85DDF06A1EDFEE63003E4011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85DDF06B1EDFEE63003E4011 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		85DDF0831EDFEE63003E4011 /* HETimeIntervalTests */ = {
+			isa = PBXGroup;
+			children = (
+				85DDF0841EDFEE63003E4011 /* HETimeIntervalTests.m */,
+				85DDF0861EDFEE63003E4011 /* Info.plist */,
+			);
+			path = HETimeIntervalTests;
+			sourceTree = "<group>";
+		};
+		85DDF08E1EDFEE63003E4011 /* HETimeIntervalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85DDF08F1EDFEE63003E4011 /* HETimeIntervalUITests.m */,
+				85DDF0911EDFEE63003E4011 /* Info.plist */,
+			);
+			path = HETimeIntervalUITests;
+			sourceTree = "<group>";
+		};
+		85DDF09D1EDFEEC3003E4011 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				85DDF09F1EDFEF09003E4011 /* UIButton+HETouch.h */,
+				85DDF09E1EDFEF09003E4011 /* UIButton+HETouch.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85DDF0661EDFEE63003E4011 /* HETimeInterval */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DDF0941EDFEE63003E4011 /* Build configuration list for PBXNativeTarget "HETimeInterval" */;
+			buildPhases = (
+				85DDF0631EDFEE63003E4011 /* Sources */,
+				85DDF0641EDFEE63003E4011 /* Frameworks */,
+				85DDF0651EDFEE63003E4011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HETimeInterval;
+			productName = HETimeInterval;
+			productReference = 85DDF0671EDFEE63003E4011 /* HETimeInterval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85DDF07F1EDFEE63003E4011 /* HETimeIntervalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DDF0971EDFEE63003E4011 /* Build configuration list for PBXNativeTarget "HETimeIntervalTests" */;
+			buildPhases = (
+				85DDF07C1EDFEE63003E4011 /* Sources */,
+				85DDF07D1EDFEE63003E4011 /* Frameworks */,
+				85DDF07E1EDFEE63003E4011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DDF0821EDFEE63003E4011 /* PBXTargetDependency */,
+			);
+			name = HETimeIntervalTests;
+			productName = HETimeIntervalTests;
+			productReference = 85DDF0801EDFEE63003E4011 /* HETimeIntervalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85DDF08A1EDFEE63003E4011 /* HETimeIntervalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DDF09A1EDFEE63003E4011 /* Build configuration list for PBXNativeTarget "HETimeIntervalUITests" */;
+			buildPhases = (
+				85DDF0871EDFEE63003E4011 /* Sources */,
+				85DDF0881EDFEE63003E4011 /* Frameworks */,
+				85DDF0891EDFEE63003E4011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85DDF08D1EDFEE63003E4011 /* PBXTargetDependency */,
+			);
+			name = HETimeIntervalUITests;
+			productName = HETimeIntervalUITests;
+			productReference = 85DDF08B1EDFEE63003E4011 /* HETimeIntervalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85DDF05F1EDFEE63003E4011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ricardo_M_HE;
+				TargetAttributes = {
+					85DDF0661EDFEE63003E4011 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2HZMP57QQM;
+						ProvisioningStyle = Automatic;
+					};
+					85DDF07F1EDFEE63003E4011 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85DDF0661EDFEE63003E4011;
+					};
+					85DDF08A1EDFEE63003E4011 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85DDF0661EDFEE63003E4011;
+					};
+				};
+			};
+			buildConfigurationList = 85DDF0621EDFEE63003E4011 /* Build configuration list for PBXProject "HETimeInterval" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85DDF05E1EDFEE63003E4011;
+			productRefGroup = 85DDF0681EDFEE63003E4011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85DDF0661EDFEE63003E4011 /* HETimeInterval */,
+				85DDF07F1EDFEE63003E4011 /* HETimeIntervalTests */,
+				85DDF08A1EDFEE63003E4011 /* HETimeIntervalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85DDF0651EDFEE63003E4011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DDF07A1EDFEE63003E4011 /* LaunchScreen.storyboard in Resources */,
+				85DDF0771EDFEE63003E4011 /* Assets.xcassets in Resources */,
+				85DDF0751EDFEE63003E4011 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DDF07E1EDFEE63003E4011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DDF0891EDFEE63003E4011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85DDF0631EDFEE63003E4011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DDF0721EDFEE63003E4011 /* ViewController.m in Sources */,
+				85DDF06F1EDFEE63003E4011 /* AppDelegate.m in Sources */,
+				85DDF0A01EDFEF09003E4011 /* UIButton+HETouch.m in Sources */,
+				85DDF06C1EDFEE63003E4011 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DDF07C1EDFEE63003E4011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DDF0851EDFEE63003E4011 /* HETimeIntervalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85DDF0871EDFEE63003E4011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DDF0901EDFEE63003E4011 /* HETimeIntervalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85DDF0821EDFEE63003E4011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85DDF0661EDFEE63003E4011 /* HETimeInterval */;
+			targetProxy = 85DDF0811EDFEE63003E4011 /* PBXContainerItemProxy */;
+		};
+		85DDF08D1EDFEE63003E4011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85DDF0661EDFEE63003E4011 /* HETimeInterval */;
+			targetProxy = 85DDF08C1EDFEE63003E4011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85DDF0731EDFEE63003E4011 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DDF0741EDFEE63003E4011 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85DDF0781EDFEE63003E4011 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85DDF0791EDFEE63003E4011 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85DDF0921EDFEE63003E4011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		85DDF0931EDFEE63003E4011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85DDF0951EDFEE63003E4011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2HZMP57QQM;
+				INFOPLIST_FILE = HETimeInterval/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.changjiudai.HETimeInterval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85DDF0961EDFEE63003E4011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2HZMP57QQM;
+				INFOPLIST_FILE = HETimeInterval/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.changjiudai.HETimeInterval;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85DDF0981EDFEE63003E4011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HETimeIntervalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.changjiudai.HETimeIntervalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HETimeInterval.app/HETimeInterval";
+			};
+			name = Debug;
+		};
+		85DDF0991EDFEE63003E4011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HETimeIntervalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.changjiudai.HETimeIntervalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HETimeInterval.app/HETimeInterval";
+			};
+			name = Release;
+		};
+		85DDF09B1EDFEE63003E4011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HETimeIntervalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.changjiudai.HETimeIntervalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HETimeInterval;
+			};
+			name = Debug;
+		};
+		85DDF09C1EDFEE63003E4011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HETimeIntervalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.changjiudai.HETimeIntervalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HETimeInterval;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85DDF0621EDFEE63003E4011 /* Build configuration list for PBXProject "HETimeInterval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DDF0921EDFEE63003E4011 /* Debug */,
+				85DDF0931EDFEE63003E4011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85DDF0941EDFEE63003E4011 /* Build configuration list for PBXNativeTarget "HETimeInterval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DDF0951EDFEE63003E4011 /* Debug */,
+				85DDF0961EDFEE63003E4011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85DDF0971EDFEE63003E4011 /* Build configuration list for PBXNativeTarget "HETimeIntervalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DDF0981EDFEE63003E4011 /* Debug */,
+				85DDF0991EDFEE63003E4011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85DDF09A1EDFEE63003E4011 /* Build configuration list for PBXNativeTarget "HETimeIntervalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85DDF09B1EDFEE63003E4011 /* Debug */,
+				85DDF09C1EDFEE63003E4011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85DDF05F1EDFEE63003E4011 /* Project object */;
+}
